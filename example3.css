@@ -1,0 +1,13 @@
+#parent {
+perspective: 300px;
+}
+#child1 {
+background-color: orange;
+position:absolute;
+transform: rotateY(30deg);
+}
+#child2 {
+background-color: yellow;
+position:absolute;
+transform: rotateY(30deg) translate(250px);
+}
